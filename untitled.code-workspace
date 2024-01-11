@@ -10,8 +10,30 @@
     ],
     // TODO 推奨Extensions
     // TODO それぞれの起動設定
+    // TODO それぞれのtask設定
     // Ref: https://code.visualstudio.com/docs/editor/multi-root-workspaces
     "settings": {
         "python.defaultInterpreterPath": ".venv/bin/python"
+    },
+    "tasks": {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "My Task",
+                "command": "echo hello",
+                "type": "shell",
+                "args": [],
+                "options": {
+                    "cwd": "${workspaceFolder:sample_streamlit}"
+                },
+                "problemMatcher": [
+                    "$tsc"
+                ],
+                "presentation": {
+                    "reveal": "always"
+                },
+                "group": "build"
+            }
+        ]
     }
 }
