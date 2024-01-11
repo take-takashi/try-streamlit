@@ -7,5 +7,11 @@
         {
             "path": "sample_streamlit"
         }
-    ]
+    ],
+    // TODO 推奨Extensions
+    // TODO それぞれの起動設定
+    // Ref: https://code.visualstudio.com/docs/editor/multi-root-workspaces
+    "settings": {
+        "python.defaultInterpreterPath": ".venv/bin/python"
+    }
 }
