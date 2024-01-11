@@ -8,6 +8,7 @@ packages = [{include = "sample_streamlit", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+streamlit = "^1.29.0"
 
 
 [build-system]
