@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sample-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["TAKE Takashi <nakamizo.takashi@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sample_streamlit", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
