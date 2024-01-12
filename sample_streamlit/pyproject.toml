@@ -2,7 +2,7 @@
 name = "sample-streamlit"
 version = "0.1.0"
 description = ""
-authors = ["TAKE Takashi <nakamizo.takashi@gmail.com>"]
+authors = [""]
 readme = "README.md"
 packages = [{include = "sample_streamlit", from = "src"}]
 
