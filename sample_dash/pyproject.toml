@@ -9,6 +9,7 @@ packages = [{include = "sample_dash", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 dash = "^2.14.2"
+pandas = "^2.1.4"
 
 
 [build-system]
