@@ -20,7 +20,8 @@
 				"ms-python.python",
 				"njpwerner.autodocstring",
 				"Gruntfuggly.todo-tree",
-				"shardulm94.trailing-spaces"
+				"shardulm94.trailing-spaces",
+				"ms-toolsai.jupyter"
 			]
             }
         }
