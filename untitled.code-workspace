@@ -5,6 +5,9 @@
             "path": "."
         },
         {
+            "path": "jupyter"
+        },
+        {
             "path": "sample_dash"
         },
         {
